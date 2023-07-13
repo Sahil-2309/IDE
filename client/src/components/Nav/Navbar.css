@@ -1,5 +1,6 @@
 .navbar {
-  background-color: #000000;
+  background-color: #0b0b1c;
+  filter: blur(1px);
   color: white;
   height: 64px;
   font-size: 1.2rem;
