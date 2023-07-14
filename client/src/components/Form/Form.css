@@ -7,8 +7,8 @@
   padding: 5px;
   border-radius: 10px;
   display: flexbox;
-  align-items: center; /* Add this line to vertically align the content */
-  justify-content: center; /* Add this line to horizontally align the content */
+  align-items: center;
+  justify-content: center;
 }
 .button-box {
   width: 220px;

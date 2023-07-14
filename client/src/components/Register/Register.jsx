@@ -22,6 +22,8 @@ const Register = () => {
             className='register-input'
             name='email'
             placeholder='Email'
+            autoComplete='current-email'
+            required
             {...register('email')}
           />
         </div>
@@ -32,6 +34,8 @@ const Register = () => {
             className='register-input'
             name='username'
             placeholder='Username'
+            autoComplete='current-username'
+            required
             {...register('username')}
           />
         </div>
@@ -42,6 +46,8 @@ const Register = () => {
             className='register-input'
             name='password'
             placeholder='Password'
+            autoComplete='current-password'
+            required
             {...register('password')}
           />
         </div>
